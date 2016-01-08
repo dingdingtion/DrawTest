@@ -9,13 +9,15 @@
 #import "ViewController.h"
 #import "LineModel.h"
 
+#import "DrawView.h"
+
 @interface ViewController ()
 
 @property (nonatomic, strong) UIImageView *imageView;
 @property (nonatomic, strong) NSMutableArray *linePoints;
 
 @property (nonatomic, strong) LineModel *currentLineModel;
-
+@property (nonatomic, strong) DrawView *drawView;
 @end
 
 @implementation ViewController
@@ -25,13 +27,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    // demo 一
+//    [self.view addSubview:self.imageView];
+
+    // demo 二
+    [self.view addSubview:self.drawView];
     
-    [self.view addSubview:self.imageView];
+    self.drawView.backgroundColor = [UIColor grayColor];
 }
-
-
-
-
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
@@ -140,6 +144,15 @@
     }
     
     return _linePoints;
+}
+
+- (DrawView *)drawView
+{
+    if (!_drawView) {
+        _drawView = [[DrawView alloc] initWithFrame:self.view.bounds];
+    }
+    
+    return _drawView;
 }
 
 - (void)didReceiveMemoryWarning {

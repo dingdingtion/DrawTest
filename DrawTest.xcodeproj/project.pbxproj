@@ -14,6 +14,7 @@
 		66768B581C3F4F4B004AE267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66768B571C3F4F4B004AE267 /* Assets.xcassets */; };
 		66768B5B1C3F4F4B004AE267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66768B591C3F4F4B004AE267 /* LaunchScreen.storyboard */; };
 		66768B641C3F5E5D004AE267 /* LineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66768B631C3F5E5D004AE267 /* LineModel.m */; };
+		66768B671C3FA898004AE267 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66768B661C3FA898004AE267 /* DrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		66768B5C1C3F4F4B004AE267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66768B621C3F5E5D004AE267 /* LineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineModel.h; sourceTree = "<group>"; };
 		66768B631C3F5E5D004AE267 /* LineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineModel.m; sourceTree = "<group>"; };
+		66768B651C3FA898004AE267 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		66768B661C3FA898004AE267 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				66768B631C3F5E5D004AE267 /* LineModel.m */,
 				66768B511C3F4F4B004AE267 /* ViewController.h */,
 				66768B521C3F4F4B004AE267 /* ViewController.m */,
+				66768B651C3FA898004AE267 /* DrawView.h */,
+				66768B661C3FA898004AE267 /* DrawView.m */,
 				66768B541C3F4F4B004AE267 /* Main.storyboard */,
 				66768B571C3F4F4B004AE267 /* Assets.xcassets */,
 				66768B591C3F4F4B004AE267 /* LaunchScreen.storyboard */,
@@ -158,6 +163,7 @@
 				66768B501C3F4F4B004AE267 /* AppDelegate.m in Sources */,
 				66768B4D1C3F4F4B004AE267 /* main.m in Sources */,
 				66768B641C3F5E5D004AE267 /* LineModel.m in Sources */,
+				66768B671C3FA898004AE267 /* DrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +310,7 @@
 				66768B611C3F4F4B004AE267 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
