@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6C7B35CDF8BAB10D2828B2BF2A17BAA87E95FBC0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6C7B35CDF8BAB10D2828B2BF2A17BAA87E95FBC0" : 0,
+    "B9D533B39FCDF74E76AB155F1DDFFA5007593B93" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AA02D2E9-A68D-4AD6-810D-EAAA8CED599B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6C7B35CDF8BAB10D2828B2BF2A17BAA87E95FBC0" : "DrawTest\/",
+    "B9D533B39FCDF74E76AB155F1DDFFA5007593B93" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DrawTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DrawTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dingdingtion\/DrawTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6C7B35CDF8BAB10D2828B2BF2A17BAA87E95FBC0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dingdingtion\/reader.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B9D533B39FCDF74E76AB155F1DDFFA5007593B93"
+    }
+  ]
+}
